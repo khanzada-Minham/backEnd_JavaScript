@@ -9,9 +9,9 @@ nodejs, mongodb, mongoosejs, expressjs,
 
 CONTENT:
 - node js install ✅
-- import and export in js 
-- run the code
--- node js core usage & understanding - http
+- import and export in js ✅
+- run the code ✅
+-- node js core usage & understanding - http 
 - npm usage
 - express
 - express generator
