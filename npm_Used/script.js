@@ -1,7 +1,7 @@
-// let oneLineJoke = require('one-liner-joke');
+let oneLineJoke = require('one-liner-joke');
 // let figlet = require('figlet')
 
-// console.log(oneLineJoke.getRandomJoke());
+console.log(oneLineJoke.getRandomJoke());
 
 // figlet("Minham Khanada", function (err, data) {
 //     if (err) {
