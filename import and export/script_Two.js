@@ -1,2 +1,3 @@
-const StudentObject =  require('./script_One');
-console.log(StudentObject.second);
+let data = require('./script_One')
+console.log(data);
+

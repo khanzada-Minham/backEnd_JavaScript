@@ -1,22 +1,15 @@
-let studentOne = [
-    {
-        name:'Minham',
-        age:20
-    },
-    {
-        name:'Imran',
-        age:40
-    }
-]
-let studentTwo = [
-    {
-        name:'Aliyan',
-        age:20
-    },
-    {
-        name:'Mohir',
-        age:19
-    }
-]
+let student = {
+    name: 'MINHAM',
+    age: 20,
+    grades: [
+        {'Math':90,'English' :85,'Computer': 95}
+    ],
+}
 
-module.exports = {first:studentOne, second:studentTwo}
+let Teacher = {
+    name: 'Hunza',
+    age: 25,
+    subject: 'English'
+}
+
+module.exports = {first :student, second :Teacher}

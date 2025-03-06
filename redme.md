@@ -12,7 +12,7 @@ CONTENT:
 - import and export in js ✅
 - run the code ✅
 -- node js core usage & understanding - http 
-- npm usage
-- express
-- express generator
+- npm usage ✅
+- express ✅
+- express generator     
 - mongodb
