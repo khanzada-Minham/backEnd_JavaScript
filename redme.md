@@ -15,5 +15,8 @@ CONTENT:
 - npm usage ✅
 - express ✅
 - middleware ✅
-- express generator     
-- mongodb
+- node vs espress ✅
+- what is express js ✅
+- why express js ✅
+- routing ✅
+- tamplate engines (ejs) ✅
