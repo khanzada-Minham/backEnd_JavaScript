@@ -14,5 +14,6 @@ CONTENT:
 -- node js core usage & understanding - http 
 - npm usage ✅
 - express ✅
+- middleware ✅
 - express generator     
 - mongodb

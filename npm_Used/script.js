@@ -1,37 +1,30 @@
-let oneLineJoke = require('one-liner-joke');
-// let figlet = require('figlet')
+const oneLineJoke = require('one-liner-joke');
+const figlat = require('figlet');
+figlat('Minham Khanzada',function(error,data){
+    if (error) {
+        console.error(error);
+        return
+    }
+    // console.log(data);
+    
+})
+// console.log(oneLineJoke.getRandomJoke());
+const exprass = require('express');
+const app = exprass();
 
-console.log(oneLineJoke.getRandomJoke());
+app.use(function (req, res, next) {
+    console.log(`Hello middlewere`);
+    next();
+})
 
-// figlet("Minham Khanada", function (err, data) {
-//     if (err) {
-//         console.log('Something went wrong');
-//         console.log(err);
-//         return;
-//     }
-//     console.log(data);
-
-// })
-
-
-let express = require('express');
-/*
-Exprass framework for node.js
-exprass ka use case => routing,
-routing => routing 
-https://www.google.com/setting
-https://www.google.com/search
-/setting = settingPage
-/search = serachPage
-routing Types => GET POST PUT PATCH DELETE
-*/
-
-let app = express();
-app.get('/',function(req,res){
+app.get('/', function (req, res) {
     res.send("Hello haye baaye baaye!");
 })
-app.get('/profile',function(req,res){
-    res.send("Hello Profile!");
+app.get('/Profile', function (req, res) {
+    res.send("Profile");
+})
+app.get('/About', function (req, res) {
+    res.send("About");
 })
 
-app.listen(3000)
+// app.listen(3000)
