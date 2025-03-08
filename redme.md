@@ -20,3 +20,4 @@ CONTENT:
 - why express js ✅
 - routing ✅
 - tamplate engines (ejs) ✅
+- express-generator ✅

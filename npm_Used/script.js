@@ -5,10 +5,10 @@ figlat('Minham Khanzada',function(error,data){
         console.error(error);
         return
     }
-    // console.log(data);
+    console.log(data);
     
 })
-// console.log(oneLineJoke.getRandomJoke());
+console.log(oneLineJoke.getRandomJoke());
 const exprass = require('express');
 const app = exprass();
 
